@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/ee0a0de948.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+     
+         <div class="budgetCont">
+         <label for="budget">Enter Your Budget</label>
+         <input type="number" name="budget" id="budget">
+         <button class="budgetBtn">Enter Budget</button>
+         </div>
+         <br>
+         <br>
+         <br>
+     <div class="expensCont">
+         <label for="exp">Enter Your Expenses Type</label>
+         <input type="text" name="exp" id="exp">
+         <label for="amount">Enter Expenses Amount</label>
+         <input type="number" name="amount" id="amount">
+         <button class="expBtn">Add Expenses</button>
+     </div>
+
+     <div class="budIcoCont">
+         <div class="budIco">
+             <h4>Budget</h4>
+            <i class="fas fa-money-bill-alt"></i>
+            <p class="budP">$ <span class="budSpan">0</span></p>
+         </div>
+
+        <div class="budIco">
+        <h4>Expenses</h4>
+        <i class="fas fa-credit-card"></i>
+        <p class="expP">$ <span class="expSpan">0</span></p>
+        </div>
+
+        <div class="budIco">
+            <h4>Balance</h4>
+        <i class="fas fa-dollar-sign"></i>
+            <p class="balP">$ <span class="balSpan">0</span></p>
+        </div>
+     </div>
+ </div>
+ <br>
+ <br>
+ <div class="output">
+    <h3 class="exOut">Expenses</h3> 
+ </div>
+<div class="utotcont"></div>
+
+
+    
+    <script src="./main.js" charset="UTF-8" type="text/javascript"></script>
+</body>
+</html>

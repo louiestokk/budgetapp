@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100vh;
+  max-height: 100vh;
+}
+body {
+  background-color: rgb(230, 235, 240);
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.budgetCont {
+  left: 5%;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+  width: 300px;
+  border: 2px solid green;
+  border-radius: 5px 5px;
+}
+
+.expensCont {
+  top: 200px;
+  left: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 250px;
+  width: 300px;
+  border: 2px solid red;
+  border-radius: 5px 5px;
+}
+
+.budIcoCont {
+  position: absolute;
+  display: flex;
+  top: 100px;
+  left: 50%;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid rgb(139, 139, 231);
+  border-radius: 5px 5px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+label {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+i {
+  font-size: 3rem;
+  margin-right: 50px;
+  color: rgb(10, 58, 112);
+}
+h4 {
+  font-size: 1.3rem;
+}
+
+.budP,
+.budSpan {
+  color: green;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.expP,
+.expSpan {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.balP,
+.balSpan {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.budgetBtn {
+  border: 1px solid green;
+  padding: 15px;
+  border-radius: 5px 5px;
+}
+.budgetBtn:hover {
+  opacity: 0.8;
+  background-color: green;
+}
+.expBtn {
+  border: 1px solid red;
+  padding: 15px;
+  border-radius: 5px 5px;
+}
+.expBtn:hover {
+  opacity: 0.8;
+  background-color: red;
+}
+
+.output {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.exOut {
+  margin-right: 20px;
+}
+
+.itemsContainer {
+  position: relative;
+}
+
+.utotcont {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  bottom: 30%;
+  width: 400px;
+}
