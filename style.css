@@ -143,7 +143,7 @@ h4 {
 
 @media (max-width: 550px) {
   html {
-    font-size: 90%;
+    font-size: 80%;
   }
 
   .budIcoCont,
@@ -162,5 +162,14 @@ h4 {
     bottom: 10%;
     width: 400px;
   }
+  .exOut {
+    display: none;
+  }
+  .budgetCont,
+  .expensCont {
+    width: 200px;
+  }
+  input {
+    width: 120px;
+  }
 }
-
